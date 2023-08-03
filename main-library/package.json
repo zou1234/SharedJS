@@ -1,0 +1,22 @@
+{
+  "name": "SharedJS",
+  "version": "1.0.0",
+  "private": false,
+  "main": "SharedJS/index.js",
+  "module": "SharedJS/index.js",
+  "scripts": {
+    "test": "webpack --config webpack.config.js"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://192.168.6.13:8082/repository/npm_ui"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.8",
+    "@babel/plugin-transform-runtime": "^7.22.7",
+    "@babel/runtime": "^7.22.6",
+    "babel-loader": "^8.2.5",
+    "typescript": "^5.1.6",
+    "webpack-cli": "^5.1.4"
+  }
+}

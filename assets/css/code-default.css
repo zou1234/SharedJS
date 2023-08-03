@@ -74,23 +74,6 @@
   background-color: #ffeef0
 }
 
-pre code.hljs {
-  display: block;
-  overflow-x: auto;
-  padding: 1em
-}
-
-code.hljs {
-  padding: 3px 5px
-}
-
-pre{
-  background: #e9ecef;
-  padding: 10px;
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  border-radius: 5px;
-}
-
 /* 滚动条的修改 */
 ::-webkit-scrollbar{
   width:4px;
@@ -104,3 +87,58 @@ pre{
 }
 
 ::-webkit-scrollbar-track{background-color:transparent; }
+
+
+h1{
+  font-size: 32px;
+}
+
+/* 文档样式二次覆盖 */
+.container-content__markdown h1,
+.container-content__markdown h2,
+.container-content__markdown h3,
+.container-content__markdown h4,
+.container-content__markdown h5{
+  color: #323233;
+}
+
+.container-content__markdown p{
+  color: rgba(28, 27, 27, .8);
+  padding: 3px 0;
+}
+
+.container-content__markdown li{
+  color: rgba(28, 27, 27, .8);
+  padding: 5px 10px;
+}
+.container-content__markdown ul li{
+  padding-left: 20px;
+}
+
+.container-content__markdown h2{
+  margin-top: 35px;
+}
+/* 编辑器处理 */
+pre{
+  background: #f5e8e8;
+  border: 1px solid #efcaca;
+  padding: 20px;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  border-radius: 5px;
+}
+
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em
+}
+
+code.hljs {
+  padding: 3px 5px
+}
+
+code{
+  font-size: 16px;
+  /*font-family: Avenir-Heavy;*/
+  font-family: inherit;
+}

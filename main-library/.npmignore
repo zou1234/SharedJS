@@ -1,0 +1,14 @@
+.idea
+.vite-inspect
+article/
+test/
+SharedJS/
+node_modules/
+.babelrc
+.gitignore
+babel.config.js
+index.html
+package.json
+package-lock.json
+vite.config.js
+webpack.config.js

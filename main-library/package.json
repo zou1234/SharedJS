@@ -5,7 +5,7 @@
   "main": "SharedJS/index.js",
   "module": "SharedJS/index.js",
   "scripts": {
-    "test": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js"
   },
   "publishConfig": {
     "access": "public",

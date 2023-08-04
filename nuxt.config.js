@@ -68,6 +68,16 @@ export default {
     }
   },
 
+  generate:{
+    dir: 'dist',
+    fallback: '',
+    subFolders: false,
+  },
+
+  // router:{
+  //   base:"/"
+  // },
+
   server: {
     host: '0.0.0.0',
     port: 9000
@@ -75,10 +85,10 @@ export default {
 
   // 接口
   serverMiddleware: [
-    { path: '/shared/shared-action-sheet', handler: '~/api/shared-action-sheet.js' },
-    { path: '/shared/shared-bar-line', handler: '~/api/shared-bar-line.js' },
-    { path: '/shared/shared-multi-pie', handler: '~/api/shared-multi-pie.js' },
-    { path: '/shared/shared-schedule-bar', handler: '~/api/shared-schedule-bar.js' },
-    { path: '/shared/shared-table-fix', handler: '~/api/shared-table-fix.js' },
+    // { path: '/shared/shared-action-sheet', handler: '~/api/shared-action-sheet.js' },
+    // { path: '/shared/shared-bar-line', handler: '~/api/shared-bar-line.js' },
+    // { path: '/shared/shared-multi-pie', handler: '~/api/shared-multi-pie.js' },
+    // { path: '/shared/shared-schedule-bar', handler: '~/api/shared-schedule-bar.js' },
+    // { path: '/shared/shared-table-fix', handler: '~/api/shared-table-fix.js' },
   ]
 }

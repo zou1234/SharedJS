@@ -1,4 +1,4 @@
-import {sharedSuppleMonth, sharedArrayOperate} from "@/main-library/core/array-operation";
+import {sharedSuppleMonth, sharedArrayOperate} from "../array-operation";
 
 /**
  * @description：post 请求

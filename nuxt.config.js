@@ -68,10 +68,12 @@ export default {
     }
   },
 
+  mode: 'spa',
+
   generate:{
-    dir: 'case-doc',
+    dir: 'docs',
     fallback: '',
-    subFolders: false,
+    subFolders: false
   },
 
   // router:{

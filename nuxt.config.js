@@ -75,9 +75,9 @@ export default {
     subFolders: false
   },
 
-  // router:{
-  //   base:"/"
-  // },
+  router:{
+    base:"/SharedJS/"
+  },
 
   server: {
     host: '0.0.0.0',

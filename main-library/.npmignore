@@ -1,6 +1,7 @@
 .idea
 .vite-inspect
 article/
+core/
 test/
 SharedJS/
 node_modules/

@@ -21,7 +21,7 @@ module.exports = {
     filename: 'index.js',
     library: 'SharedJS',
     libraryTarget: 'umd',
-    path: path.resolve(__dirname, 'SharedJS')
+    path: path.resolve(__dirname, 'dist')
   },
 
   // mode: "none",

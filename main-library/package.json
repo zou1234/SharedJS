@@ -2,8 +2,8 @@
   "name": "SharedJS",
   "version": "1.0.0",
   "private": false,
-  "main": "SharedJS/index.js",
-  "module": "SharedJS/index.js",
+  "main": "dist/index.js",
+  "module": "dsit/index.js",
   "scripts": {
     "build": "webpack --config webpack.config.js"
   },

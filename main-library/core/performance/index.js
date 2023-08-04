@@ -4,7 +4,7 @@
  * @param delay: 时间
  * */
 export function sharedAntiShake(fn, delay) {
-  console.log("邹文丰", 11111)
+  console.log("sharedAntiShake 测试")
   let timeOut = null;
   return function() {
     if(timeOut) clearInterval(timeOut)
@@ -18,8 +18,6 @@ export function sharedAntiShake(fn, delay) {
  * @param delay: 时间
  * */
 export function sharedThrottle(fn, delay){
-  console.log("邹文丰2", 222222)
-
   let timer = null;
   return function() {
     const context = this;

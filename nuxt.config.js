@@ -69,7 +69,7 @@ export default {
   },
 
   generate:{
-    dir: 'dist',
+    dir: 'case-doc',
     fallback: '',
     subFolders: false,
   },

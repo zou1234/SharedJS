@@ -72,7 +72,6 @@ export default {
 
   generate:{
     dir: 'docs',
-    fallback: '',
     subFolders: false
   },
 

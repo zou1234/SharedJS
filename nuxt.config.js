@@ -73,11 +73,10 @@ export default {
     subFolders: false
   },
 
+  // publicPath: '/SharedJS/',
   router:{
-    base:"https://zou1234.github.io/SharedJS/"
+    base:"/SharedJS/"
   },
-
-  publicPath: 'https://zou1234.github.io/SharedJS/',
 
   server: {
     host: '0.0.0.0',

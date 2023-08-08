@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{470:function(e,t,n){"use strict";n.r(t);var o={name:"IndexPage",created:function(){this.$router.push("home/#/?title=sharedAxiosRequest")}},c=n(56),component=Object(c.a)(o,(function(){return(0,this._self._c)("div",{staticClass:"container"})}),[],!1,null,null,null);t.default=component.exports}}]);

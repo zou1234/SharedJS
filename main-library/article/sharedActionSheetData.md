@@ -42,5 +42,4 @@ console.log(data);
 
 原接口请求数据
 
-[//]: # (![]&#40;/markdown/sharedActionSheetData-2.png&#41;)
-![](https://zou1234.github.io/SharedJS/markdown/sharedActionSheetData-2.png)
+![](/markdown/sharedActionSheetData-2.png)

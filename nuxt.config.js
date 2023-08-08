@@ -61,6 +61,7 @@ export default {
 
   build: {
     components: true,
+    publicPath: 'https://zou1234.github.io/SharedJS/',
     build: {
       transpile: ['vue-markdown']
     }
@@ -72,8 +73,6 @@ export default {
     dir: 'docs',
     subFolders: false
   },
-
-  publicPath: 'https://zou1234.github.io/SharedJS/',
 
   router:{
     base:"/SharedJS/"

@@ -2,6 +2,7 @@
   <div class="container">
     <!--  头部  -->
     <header-info/>
+<!--    <img src="~/assets/img.png" alt="/">-->
     <!--  主体  -->
     <!--    <img src="/favicon.ico" alt="/">-->
     <div class="container-content">

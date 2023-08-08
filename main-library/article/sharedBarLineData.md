@@ -45,4 +45,4 @@ const data =  await sharedBarLineData({
 
 console.log(data);
 ```
-![](/markdown/sharedBarLineData1-1.png)
+![](/SharedJS/markdown/sharedBarLineData1-1.png)

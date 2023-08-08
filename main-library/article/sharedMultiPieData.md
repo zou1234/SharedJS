@@ -35,4 +35,4 @@ console.log(data);
 ```
 输出结果
 
-![](/markdown/sharedMultiPieData-1.png)
+![](/SharedJS/markdown/sharedMultiPieData-1.png)

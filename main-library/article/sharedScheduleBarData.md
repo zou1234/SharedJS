@@ -44,8 +44,8 @@ return await sharedScheduleBarData({
 ``` 
 输出结果
 
-![](/markdown/sharedScheduleBarData-2.png)
+![](/SharedJS/markdown/sharedScheduleBarData-2.png)
 
 原接口请求数据
 
-![](/markdown/sharedScheduleBarData-1.png)
+![](/SharedJS/markdown/sharedScheduleBarData-1.png)

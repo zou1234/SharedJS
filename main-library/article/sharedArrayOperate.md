@@ -52,6 +52,6 @@ console.log(data);
 ]
 ```
 [//]: # (![]&#40;/static/markdown/sharedArrayOperate-1.png&#41;)
-![](/markdown/sharedArrayOperate-1.png)
+![](/SharedJS/markdown/sharedArrayOperate-1.png)
 
 

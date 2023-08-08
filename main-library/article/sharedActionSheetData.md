@@ -36,12 +36,10 @@ const data = await sharedActionSheetData({
 })
 console.log(data);
 ```
-输出结果343434
+输出结果
 
 ![](/SharedJS/markdown/sharedActionSheetData-1.png)
 
 原接口请求数据
 
 ![](/SharedJS/markdown/sharedActionSheetData-2.png)
-
-111

@@ -38,7 +38,7 @@ console.log(data);
 ```
 输出结果
 
-![](/markdown/sharedActionSheetData-1.png)
+![](/SharedJS/markdown/sharedActionSheetData-1.png)
 
 原接口请求数据
 

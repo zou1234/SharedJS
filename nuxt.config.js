@@ -60,10 +60,12 @@ export default {
   },
 
   build: {
-    components: true,
-    build: {
-      transpile: ['vue-markdown']
-    }
+    publicPath: '/SharedJS/',
+
+    // components: true,
+    // build: {
+    //   transpile: ['vue-markdown']
+    // }
   },
 
   mode: 'spa',
@@ -72,8 +74,6 @@ export default {
     dir: 'docs',
     subFolders: false
   },
-
-  publicPath: '/SharedJS/',
 
   router:{
     base:"/SharedJS/"

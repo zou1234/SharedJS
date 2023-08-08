@@ -22,7 +22,7 @@ window.sharedRequest = axios
 
 ## 引入
 ```javascript
-import { sharedAxiosRequest } from "sharedjs";
+import { sharedAxiosRequest } from "SharedJS";
 ```
 
 ## 例子 1
@@ -43,7 +43,7 @@ console.log(data);
 ## 例子 2
 如果request并未全局配置，必须每个都传，不太建议这么使用哦！
 ```javascript
-import axios from "sharedjs";
+import axios from "SharedJS";
 
 // 请求一个 URL接口
 let data = await sharedAxiosRequest({

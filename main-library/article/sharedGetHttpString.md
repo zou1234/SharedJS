@@ -6,7 +6,7 @@
 
 ## 引入
 ```javascript
-import { sharedGetHttpString } from "sharedjs";
+import { sharedGetHttpString } from "SharedJS";
 ```
 
 ## 例子

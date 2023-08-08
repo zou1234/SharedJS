@@ -7,7 +7,7 @@
 
 ## 引入
 ```javascript
-import { sharedFormatNumber } from "sharedjs";
+import { sharedFormatNumber } from "SharedJS";
 ```
 ## 例子
 ```javascript

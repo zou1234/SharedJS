@@ -7,7 +7,7 @@
 
 ## 引入
 ```javascript
-import { sharedArrayUnique } from "sharedjs";
+import { sharedArrayUnique } from "SharedJS";
 ```
 
 ## 普通数组

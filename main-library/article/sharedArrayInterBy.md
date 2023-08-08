@@ -8,7 +8,7 @@
 
 ## 引入
 ```javascript
-import { sharedArrayInterBy } from "sharedjs";
+import { sharedArrayInterBy } from "SharedJS";
 ```
 
 ## 例子

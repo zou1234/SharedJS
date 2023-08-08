@@ -136,6 +136,7 @@ export async function sharedBarLineData(ob) {
       type: v.type,
       name: v.label,
       data: targetData,
+      ...v
     }
   });
 

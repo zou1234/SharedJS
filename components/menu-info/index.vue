@@ -29,10 +29,10 @@ export default {
       menuList: [
         { name: '业务接口', attribute: "class"},
         { name: 'sharedAxiosRequest', chinese: 'axios请求' },
-        { name: 'sharedActionSheetData', chinese: 'vant下拉' },
-        { name: 'sharedScheduleBarData', chinese: 'schedule-bar-chart对接' },
         { name: 'sharedBarLineData', chinese: 'bar-line-chart 对接' },
         { name: 'sharedMultiPieData', chinese: 'multi-pie-chart 对接' },
+        { name: 'sharedScheduleBarData', chinese: 'schedule-bar-chart对接' },
+        { name: 'sharedActionSheetData', chinese: 'vant下拉' },
 
         { name: '字符串', attribute: "class"},
         { name: 'sharedGetHttpString', chinese: '获取http字符' },

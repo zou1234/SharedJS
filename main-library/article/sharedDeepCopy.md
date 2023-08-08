@@ -6,7 +6,7 @@
 
 ## 引入
 ```javascript
-import { sharedDeepCopy } from "sharedjs";
+import { sharedDeepCopy } from "SharedJS";
 ```
 ## 例子
 ```javascript

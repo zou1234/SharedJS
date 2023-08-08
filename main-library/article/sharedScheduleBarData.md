@@ -1,5 +1,7 @@
 # sharedScheduleBarData(Object)
-对manyUI schedule-bar-chart组件进行接口请求封装，返回目标数据，和源接口数据, 内部基于**sharedAxiosRequest**、**sharedArrayOperate**封装
+**对 ManyUI 组件库 【schedule-bar-chart】组件进行接口请求封装，返回目标数据**
+
+![](/SharedJS/markdown/sharedScheduleBarData1-1.png)
 
 ## 参数（Object）
 1. **request** (Object)：请求方法体，目前仅axios传入，可全局配置，配置后可不用传
@@ -18,34 +20,59 @@
 import { sharedScheduleBarData } form "sharedjs";
 ```
 ## 例子
-```javascript
-const configData = [
-  {
-    label: "name",
-    value: 'KQMJ',
-    unit: '年'
-  },
-  {
-    label: "value",
-    value: 'GS',
-    unit: '%'
-  }]
-
-return await sharedScheduleBarData({
-  request: request,
-  method: "GET",
-  query_key: 'yf-zrzy-czks-006',
-  param: {
-    LX:'1',
-    px:'1',
-  },
-  configData
-})
+![](/SharedJS/markdown/sharedScheduleBarData1-2.png)
+```html
+    <schedule-bar-chart
+  unit="起"
+  :data="data"
+  :total="700"
+></schedule-bar-chart>
 ``` 
-输出结果
 
-![](/SharedJS/markdown/sharedScheduleBarData-2.png)
+```javascript
+import { sharedScheduleBarData } from "SharedJS";
 
-原接口请求数据
+export default {
+  name: "bar-line-chart-abutment",
+  data() {
+    return {
+      data: [],
+    };
+  },
 
-![](/SharedJS/markdown/sharedScheduleBarData-1.png)
+  methods: {
+    async getData(){
+      const data =  await sharedScheduleBarData({
+        url: '/demo-data/large-scree/schedule-bar-chart',
+        method: 'GET',
+        configData:[
+          {
+            label: "name",
+            value: 'ND',
+            unit: '年'
+          },
+          {
+            label: "value",
+            value: 'JYJJ',
+            unit: 0
+          }]
+      })
+      console.log(JSON.stringify(data.newData));
+      console.log(data);
+
+      this.data = data.newData
+
+    }
+  },
+
+  created(){
+    this.getData()
+  }
+}
+```
+
+输出结果，和原来接口数据
+
+![](/SharedJS/markdown/sharedScheduleBarData1-3.png)
+
+

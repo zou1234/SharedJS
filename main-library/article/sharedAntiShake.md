@@ -6,7 +6,7 @@
 
 ## 引入
 ```javascript
-import { sharedAntiShake } from "sharedjs";
+import { sharedAntiShake } from "SharedJS";
 ```
 ## 例子
 ```javascript

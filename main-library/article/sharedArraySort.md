@@ -8,7 +8,7 @@
 
 ## 引入
 ```javascript
-import { sharedArraySort } from "sharedjs";
+import { sharedArraySort } from "SharedJS";
 ```
 
 ## 普通数组

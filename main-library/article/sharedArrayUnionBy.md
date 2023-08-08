@@ -8,7 +8,7 @@
 
 ## 引入
 ```javascript
-import { sharedArrayUnionBy } from "sharedjs";
+import { sharedArrayUnionBy } from "SharedJS";
 ```
 
 ## 例子

@@ -8,10 +8,15 @@ export function sharedArrayOperate({sourceData, configData}) {
     return sourceData.map((v) => {
       if (Array.isArray(configData) && configData.length > 0) {
         let obj = {}
+
         for (let item of configData) {
-          const _unit = item.unit ? item.unit : ""
-          obj[item.label] = v[item.value] + `${_unit}`
+          if(item.unit){
+            obj[item.label] = v[item.value] + `${item.unit}`
+          }else {
+            obj[item.label] = v[item.value]
+          }
         }
+
         return obj
 
       } else {

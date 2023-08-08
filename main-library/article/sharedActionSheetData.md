@@ -16,7 +16,7 @@
 
 ## 引入
 ```javascript
-import { sharedActionSheetData } from "sharedjs";
+import { sharedActionSheetData } from "SharedJS";
 ```
 
 ## 例子

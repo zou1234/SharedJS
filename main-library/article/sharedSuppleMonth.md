@@ -10,7 +10,7 @@
 ## 引入
 
 ```javascript
-import {sharedSuppleMonth} from "sharedjs";
+import {sharedSuppleMonth} from "SharedJS";
 ```
 
 ## 例子

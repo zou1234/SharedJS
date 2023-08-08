@@ -36,7 +36,7 @@ const data = await sharedActionSheetData({
 })
 console.log(data);
 ```
-输出结果
+输出结果343434
 
 ![](/markdown/sharedActionSheetData-1.png)
 

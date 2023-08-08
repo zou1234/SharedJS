@@ -8,13 +8,22 @@ import {sharedSuppleMonth, sharedArrayOperate} from "../array-operation";
  * @param obj: {url} 接口服务地址
  * @param obj: {request} axios 请求体
  * */
-export function sharedAxiosRequest({request, url, param = {}, method = 'GET', query_key}) {
+export function sharedAxiosRequest({request, requestKey, url, param = {}, method = 'GET', query_key}) {
   // 默认读取全局拦截器
-  const _request = request || window["sharedRequest"]
+  const globRequest = window["sharedRequest"]
+  let _request
 
-  let params = url ?
-    {...param} :
-    {query_key, ...param};
+  if(request){
+    _request = request
+  }else if(globRequest instanceof Array && globRequest.length > 0){
+    _request = globRequest[requestKey]
+  }else {
+    _request = globRequest ? globRequest : request
+  }
+
+  let params = url
+    ? {...param}
+    : {query_key, ...param};
 
   return new Promise((resolve, reject) => {
     let queryFn = method == 'POST'

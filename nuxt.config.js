@@ -42,7 +42,7 @@ export default {
 
   axios: {
     //设置统一的基础url，线上环境关闭代理时使用它。
-    baseURL:"http://192.168.137.1:9000/shared/",
+    baseURL:"http://xx.xx.xx.xx:xx/shared/",
     // baseURL:"http://10.201.8.73:8083/syzl1/",
     // proxy: true, // 表示开启代理
     // prefix: '/api', // 表示给请求url加个前缀 /api
@@ -51,9 +51,7 @@ export default {
 
   proxy: {
     '/api': {
-      target: 'http://192.168.137.1:9000/shared/', // 目标接口域名
-      // target: 'http://10.201.8.73:8083/syzl1/', // 目标接口域名
-      // target: 'http://10.201.6.12:8081/syzl/', // 目标接口域名
+      target: 'http://xxx.xxx.xxx.xx:xxx/shared/', // 目标接口域名
       pathRewrite: {
         '^/api': '/', // 把 /api 替换成 /
         changeOrigin: true // 表示是否跨域
@@ -75,9 +73,13 @@ export default {
     subFolders: false
   },
 
+  publicPath: '/SharedJS/',
+
   router:{
     base:"/SharedJS/"
   },
+
+
 
   server: {
     host: '0.0.0.0',

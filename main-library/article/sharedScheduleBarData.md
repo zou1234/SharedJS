@@ -22,11 +22,12 @@ import { sharedScheduleBarData } form "sharedjs";
 ## 例子
 ![](/SharedJS/markdown/sharedScheduleBarData1-2.png)
 ```html
-    <schedule-bar-chart
+<schedule-bar-chart
   unit="起"
   :data="data"
   :total="700"
-></schedule-bar-chart>
+>
+</schedule-bar-chart>
 ``` 
 
 ```javascript

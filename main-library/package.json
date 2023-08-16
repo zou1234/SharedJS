@@ -1,6 +1,6 @@
 {
   "name": "SharedJS",
-  "version": "1.0.1-bate",
+  "version": "1.0.1",
   "private": false,
   "main": "dist/index.js",
   "module": "dsit/index.js",

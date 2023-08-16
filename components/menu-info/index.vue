@@ -28,7 +28,7 @@ export default {
       current:'sharedActionSheetData',
       menuList: [
         { name: '业务接口', attribute: "class"},
-        { name: 'sharedAxiosRequest', chinese: 'axios请求' },
+        { name: 'sharedAxiosRequest', chinese: '接口请求简化封装' },
         { name: 'sharedBarLineData', chinese: 'bar-line-chart 对接' },
         { name: 'sharedMultiPieData', chinese: 'multi-pie-chart 对接' },
         { name: 'sharedScheduleBarData', chinese: 'schedule-bar-chart对接' },

@@ -3,6 +3,8 @@
 
 ![](/SharedJS/markdown/sharedScheduleBarData1-1.png)
 
+注意！暂时不支持复杂的树形的，这个需要你自己用sharedAxiosRequest方法去请求，处理数据
+
 ## 参数（Object）
 1. **request** (Object)：请求方法体，目前仅axios传入，可全局配置，配置后可不用传
 2. **url** (String)： 接口服务地址
@@ -48,7 +50,9 @@ export default {
         method: 'GET',
         configData:[
           {
+            //组件数据结构的key
             label: "name",
+            //接口对应字段
             value: 'ND',
             unit: '年'
           },
